@@ -1,0 +1,31 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: gray;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li:last-child {
+    margin-left: auto;
+}
+
+.nav-links a {
+    color: #282c34;
+    text-decoration: none;
+}
